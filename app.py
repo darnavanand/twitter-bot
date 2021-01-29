@@ -12,3 +12,4 @@ while True:
   api.update_profile(name= f'Arnav Anand {a}')
   print(f'Arnav Anand {a}')
   time.sleep(60)
+  
