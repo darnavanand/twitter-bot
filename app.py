@@ -6,7 +6,7 @@ auth.set_access_token('2998335193-3SQZFEUQbUCfeMmhsuod2hwTrGemii1F4nZkybu', 'AZr
 
 api = tweepy.API(auth)
 while True:
-  user= api.get_user('ShraddhaKapoor')
+  user= api.get_user('999arnavanand')
   a=user.followers_count
 
   api.update_profile(name= f'Arnav Anand {a}')
